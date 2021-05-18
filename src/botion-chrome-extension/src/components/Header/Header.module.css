@@ -1,0 +1,16 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Actions > * + * {
+  margin-left: var(--size-03);
+}

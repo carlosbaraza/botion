@@ -1,0 +1,10 @@
+.AutomationButton {
+  color: var(--gray-200);
+  background: var(--gray-700);
+  border-radius: var(--border-radius-2);
+  border: none;
+  font-size: 12px;
+  padding: var(--size-01) var(--size-03);
+  display: inline;
+  cursor: pointer;
+}

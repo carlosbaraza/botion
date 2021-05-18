@@ -1,0 +1,9 @@
+.Container {
+  display: flex;
+  width: var(--size-07);
+  height: var(--size-07);
+  font-size: var(--size-07);
+  background: none;
+  border: none;
+  cursor: pointer;
+}

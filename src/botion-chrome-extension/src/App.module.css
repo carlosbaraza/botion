@@ -1,0 +1,29 @@
+.Botion {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999999;
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  padding: var(--size-09);
+  background: rgba(0, 0, 0, 0.3);
+  color: var(--gray-200);
+  align-items: center;
+  justify-content: center;
+}
+
+.Inner {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  border-radius: var(--border-radius-5);
+  background: var(--gray-800);
+  box-shadow: var(--box-shadow-5);
+  padding: var(--size-06);
+  max-width: 1000px;
+}
+
+.Inner > * + * {
+  margin-top: var(--size-05);
+}

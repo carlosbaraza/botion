@@ -1,0 +1,6 @@
+.Container {
+  font-size: var(--font-size-7);
+  line-height: var(--line-height-7);
+  margin: 0;
+  padding: 0;
+}

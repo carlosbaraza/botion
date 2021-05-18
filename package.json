@@ -1,0 +1,19 @@
+{
+  "name": "botion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "TS_NODE_FILES=true ts-node src/server/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^0.1.3",
+    "dotenv": "^9.0.2",
+    "prettier": "^2.3.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}

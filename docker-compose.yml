@@ -6,6 +6,8 @@ services:
     restart: always
     volumes:
       - ./dbvolume:/var/lib/postgresql/data
+    ports:
+      - 8081:5432
     environment:
       POSTGRES_USER: botion
       POSTGRES_PASSWORD: botion

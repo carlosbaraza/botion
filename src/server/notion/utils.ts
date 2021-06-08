@@ -1,4 +1,4 @@
-import { notion } from "./notion";
+import { notion } from ".";
 
 export async function getBlocks(blockId: string): Promise<any> {
   const blocks = await notion.blocks.children.list({

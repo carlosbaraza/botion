@@ -1,7 +1,7 @@
 require("dotenv").config();
 //
 import { notion } from "./notion";
-import { getBlocks } from "./notion-utils";
+import { getBlocks } from "./notion/utils";
 
 async function main() {
   // Get databases
